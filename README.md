@@ -1,5 +1,5 @@
 # mlflow-docker-server
-Docker container for setting up mlflow server in local docker container.
+Docker container for setting up mlflow server hosted local in a docker container.
 
 ## Running the server
 Remember to setup the volumes with desired folders where the persistant storage needs to be.
