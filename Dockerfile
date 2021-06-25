@@ -26,5 +26,5 @@ WORKDIR ${MLFLOW_HOME}
 CMD mlflow server \
     --host $SERVER_HOST \
     --port $SERVER_PORT \
-    --backend-store-uri sqlite:///${DB_STORE}/mydb.sqlite \
+    --backend-store-uri sqlite:///${DB_STORE}/mlflow_metastore.sqlite \
     --default-artifact-root ${ARTIFACT_STORE} 
