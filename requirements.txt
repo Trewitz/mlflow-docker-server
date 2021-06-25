@@ -1,1 +1,2 @@
 mlflow==1.17.0
+google-cloud-storage
